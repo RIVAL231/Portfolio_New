@@ -9,6 +9,9 @@ export function CustomCursor() {
   const [isHidden, setIsHidden] = useState(true)
 
   useEffect(() => {
+   
+    document.body.style.cursor = "none"
+
     const updatePosition = (e: MouseEvent) => {
       setPosition({ x: e.clientX, y: e.clientY })
       setIsHidden(false)

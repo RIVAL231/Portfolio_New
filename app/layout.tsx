@@ -69,7 +69,10 @@ export default function RootLayout({
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <AnimatedBackground />
-          <CustomCursor />
+          {/* CustomCursor only renders on non-mobile devices */}
+          <div className="hidden md:block">
+            <CustomCursor />
+          </div>
           {children}
         </ThemeProvider>
       </body>

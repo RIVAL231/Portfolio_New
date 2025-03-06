@@ -4,6 +4,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  cursor: none !important;
 }
 
 @layer utilities {
@@ -91,4 +92,11 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Add this at the very end of the file to override later CSS */
+*,
+*::before,
+*::after, body, html {
+  cursor:none !important;
 }
