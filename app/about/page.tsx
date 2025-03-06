@@ -87,23 +87,18 @@ export default function AboutPage() {
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
                 <p className="text-lg mb-4">
-                  Hello! I'm Sankalp Sharma, a passionate full-stack developer with a keen interest in building
-                  innovative digital solutions that make a difference.
-                </p>
-                <p className="text-muted-foreground mb-4">
-                  With a strong foundation in computer science and a creative approach to problem-solving, I enjoy
-                  tackling complex challenges and turning them into elegant, user-friendly applications.
-                </p>
-                <p className="text-muted-foreground mb-4">
-                  My journey in technology began during my undergraduate studies, where I discovered my passion for
-                  coding and creating digital experiences. Since then, I've been continuously learning and expanding my
-                  skill set to stay at the forefront of technological advancements.
-                </p>
-                <p className="text-muted-foreground">
-                  When I'm not coding, you can find me exploring new technologies, contributing to open-source projects,
-                  or writing about my experiences on my blog. I believe in the power of technology to transform lives
-                  and am committed to using my skills to create positive impact.
-                </p>
+  Hello! I'm Sankalp Sharma, a passionate full-stack developer and problem-solver, always eager to push the boundaries of technology and innovation.
+</p>
+<p className="text-muted-foreground mb-4">
+  With a strong foundation in computer science and hands-on experience in building scalable web applications, cloud deployments, and workflow automation, I thrive on turning complex ideas into seamless, impactful solutions.
+</p>
+<p className="text-muted-foreground mb-4">
+  My journey began with a deep curiosity for coding, which evolved into a passion for full-stack development, DevOps, and AI-powered applications. From developing multilingual platforms and optimizing cloud infrastructure to integrating automation workflows, I constantly seek ways to improve efficiency and user experience.
+</p>
+<p className="text-muted-foreground">
+  When I’m not coding, I channel my creativity into writing poetry, weaving emotions into words, and sharing them on my poetry blog. Whether it's through lines of code or lines of verse, I strive to create something meaningful that resonates with people.
+</p>
+
               </motion.div>
             </div>
 

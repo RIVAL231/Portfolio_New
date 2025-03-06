@@ -19,7 +19,7 @@ export default function ExperiencePage() {
       skills: ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
     },
     {
-      title: "Full Srack Intern",
+      title: "Full Stack and DevOps Intern",
       company: "HealthSutra Analytics",
       period: "Jan 2025 - Present",
       location: "Remote",
