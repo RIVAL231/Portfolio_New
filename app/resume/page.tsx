@@ -157,7 +157,7 @@ export default function ResumePage() {
                 }}
               >
                 <h3 className="text-xl font-bold">Bachelor of Technology in Computer Science</h3>
-                <p className="text-primary font-medium">Indian Institute of Technology</p>
+                <p className="text-primary font-medium">Vellore Institute of Technology, Vellore</p>
                 <p className="text-muted-foreground mb-4">Sept 2022 - July 2026</p>
                 <p>
                   I am currently pursuiing a B.Tech Degree in Computer Science and Engineering at VIT,Vellore.
